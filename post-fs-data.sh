@@ -2,8 +2,8 @@
 
 MODDIR=${0%/*}
 
-SUPL_HOST=supl.vodafone.com
-NTP_SERVER=pool.ntp.org
+SUPL_HOST=supl.qxwz.com
+NTP_SERVER=cn.pool.ntp.org
 
 # For new "Treble enabled" devices
 if [ -f /system/vendor/etc/gps.conf ]; then
